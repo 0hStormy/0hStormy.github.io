@@ -1,0 +1,80 @@
+:root {
+    --background: #222;
+    --main: #313131;
+    --alt: #1f1f1f;
+    --alt2: #3b3b3b;
+    --text: #fff;
+    --accent: #855ad4;
+    --shadows: #111;
+  }
+
+body {
+    font-family: "Noto Sans", Helvetica, sans-serif;
+    background-color: #222;
+    color: var(--text);
+}
+
+hr {
+  height: 1pt;
+  background-color: var(--accent);
+  border: none;
+}
+
+a {
+  color: var(--accent);
+}
+
+.root {
+  max-width: fit-content;
+  margin-inline: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--alt2);
+  padding: 10pt;
+  border-radius: 10pt;
+  text-align: start;
+  border-width: 2pt;
+  border-style:solid;
+  border-color: var(--accent);
+  max-width: 960px;
+  box-shadow: var(--shadows) 0px 0px 50px;
+  transition: all, 0.5s;
+}
+
+.box:hover {
+  transform: scale(1.01);
+}
+
+.topnav {
+    background-color: var(--main);
+    box-shadow: var(--shadows) 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10pt;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8pt 10pt;
+    text-decoration: none;
+    transition: all, 0.2s;
+    border-radius: 10pt;
+  }
+  
+  .topnav a:hover {
+    background-color: var(--alt2);
+  }
+  
+  .topnav a.active {
+    background-color: var(--accent);
+    color: white;
+  }
