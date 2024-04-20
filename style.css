@@ -5,13 +5,16 @@
     --alt2: #3b3b3b;
     --text: #fff;
     --accent: #855ad4;
+    --accent2: #494491;
     --shadows: #111;
   }
 
 body {
-    font-family: "Noto Sans", Helvetica, sans-serif;
+    font-family: "Ubuntu", "Noto Sans", Helvetica, sans-serif;
     background-color: #222;
     color: var(--text);
+    margin-top: 80px;
+    line-height: 150%;
 }
 
 hr {
@@ -22,6 +25,19 @@ hr {
 
 a {
   color: var(--accent);
+  text-decoration: none;
+}
+
+.banner {
+  height: 150pt;
+  background-image: linear-gradient(to bottom right, var(--accent), var(--accent2));
+  margin: 20pt;
+  margin-inline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50pt;
+  font-weight: bold;
 }
 
 .root {
@@ -69,14 +85,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10pt;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
   }
   
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 8pt 10pt;
+    padding: 8px 10px;
     text-decoration: none;
     transition: all, 0.2s;
     border-radius: 10pt;

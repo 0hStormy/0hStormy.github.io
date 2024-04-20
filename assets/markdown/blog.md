@@ -1,10 +1,15 @@
+## Weed 🤤 - 4/20/24
+Hey y'all, today I just wanted to say that it's unnoffical weed day today. I also extended the home page to have more info about the website in its current state and what's to come in the future. Anyways, have a great day!
+
+<hr>
+
 ## Bored in school - 4/19/24
 I'm really bored in social stuidies right now. Anyways, I've been working on more music latetly. And I will soon post it here for anyone to hear, Cya nerds!
 
 <hr>
 
 ## Colors are shining - 4/14/24
-Today I fixed up my music page to have a theme that makes sense with the rest of the website. Well, have a good night!
+Today I fixed up my music page to have a theme that makes sense with the rest of the website because it looked kind of ugly before. Well, have a good night!
 
 <hr>
 
