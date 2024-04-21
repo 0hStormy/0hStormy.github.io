@@ -75,7 +75,7 @@ a {
   border-style:solid;
   border-color: var(--accent);
   padding: 10pt;
-  margin: 5pt;
+  margin: 10pt;
   box-shadow: var(--shadows) 0px 0px 50px;
 }
 
