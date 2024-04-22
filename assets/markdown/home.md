@@ -13,7 +13,7 @@ I do many things in life currently. Including school, creating music, drawing, a
 
 * Make more music
 * Get better at drawing
-* Learn Rust
+* Learn the Rust programming language
 * Go to college
 * Do well in school
 
