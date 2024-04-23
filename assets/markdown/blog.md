@@ -1,3 +1,12 @@
+## Banners and stuffs - 4/22/24
+Haii! Today I added a banner to the home screen of my website because it looks cool or something. I'm supprised how little CSS I need to create this cool banner.
+
+<img src="assets/markdown/blog/42224/averagecss.png">
+
+And I also tweaked some minor things that confused people. Anyways, bye for now!
+
+<hr>
+
 ## Weed 🤤 - 4/20/24
 Hey y'all, today I just wanted to say that it's unnoffical weed day today. I also extended the home page to have more info about the website in its current state and what's to come in the future. Anyways, have a great day!
 
