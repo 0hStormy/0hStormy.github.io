@@ -1,3 +1,8 @@
+## Music and crap - 5/3/24
+Ello, I just wanted to annouce I have been cooking up like 4 fire songs that I will add to this website soon. And also a early may the 4th be with you, Cya!
+
+<hr>
+
 ## Banners and stuffs - 4/22/24
 Haii! Today I added a banner to the home screen of my website because it looks cool or something. I'm supprised how little CSS I need to create this cool banner.
 
