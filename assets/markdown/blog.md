@@ -1,3 +1,12 @@
+## I'm SIck, but Updates! - 5/6/24
+Hi guys, I wanted to let you all know I'm sick, but on the bright side, I've made big updates to this website! The main points of this are I finally added a light theme that will toggle with your system and looks like this for anyone who doesn't want to change there system theme:
+
+<img src="assets/markdown/blog/50624/lightTheme.png">
+
+In my opinion I think the light mode looks pretty cool. In addition to the the light theme I added **6 new songs** to the music page, which you should really go listen to. I aslo added ways of contacting me if needed on the <a href="about.html">about</a> page. Finally, for a full changelog, go check the commit page on my <a href="https://github.com/0hStormy/0hStormy.github.io/commits/main/">github</a> page. Adiós Amigos!
+
+<hr>
+
 ## Music and crap - 5/3/24
 Ello, I just wanted to annouce I have been cooking up like 4 fire songs that I will add to this website soon. And also a early may the 4th be with you, Cya!
 

@@ -10,9 +10,31 @@
     --screenwidth: ;
   }
 
+  @media (prefers-color-scheme: light) {
+    :root {
+      --background: #cfc5e6;
+      --main: #e1dff1;
+      --alt: #c9bbd4;
+      --alt2: #beb4c7;
+      --text: #241f30;
+      --accent: #8157cf;
+      --accent2: #494491;
+      --shadows: #79757e;
+      --screenwidth: ;
+    }
+
+    hr {
+      box-shadow: var(--background) 0px 0px 20px;
+    }
+
+    h1 {
+      font-weight: 400;
+    }
+  }
+
 body {
     font-family: "Ubuntu", "Noto Sans", Helvetica, sans-serif;
-    background-color: #222;
+    background-color: var(--background);
     color: var(--text);
     margin-top: 80px;
     line-height: 150%;
@@ -45,6 +67,15 @@ img:active {
   box-shadow: var(--accent) 0px 0px 60px;
 }
 
+.spoiler {
+  filter: blur(10px);
+}
+
+.spoiler:active:active {
+  z-index: 1;
+  filter: blur(0px);
+}
+
 .flag {
   border-radius: 1pt;
   width: 20px;
@@ -61,6 +92,8 @@ img:active {
   align-items: center;
   font-size: 50pt;
   font-weight: bold;
+  color: white;
+  box-shadow: var(--shadows) 0px 0px 50px;
 }
 
 .root {
@@ -86,6 +119,18 @@ img:active {
   transition: all, 0.5s;
 }
 
+.box-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main);
+  padding: 10pt;
+  border-radius: 10pt;
+  text-align: start;
+  box-shadow: var(--shadows) 0px 0px 50px;
+  transition: all, 0.5s;
+}
+
 .box:hover {
   transform: scale(1.01);
 }
@@ -98,7 +143,7 @@ iframe {
 
 .div_audio {
   max-width: 95%;
-  background-color: var(--alt2);
+  background-color: var(--main);
   border-width: 2pt;
   border-radius: 10pt;
   border-style:solid;
@@ -123,7 +168,7 @@ iframe {
   
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: var(--text);
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
