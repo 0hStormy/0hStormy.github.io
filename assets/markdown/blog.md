@@ -1,3 +1,12 @@
+## Stormy's Music Dump 1! - 5/28/24
+Alright guys, this is crazy but my music finally got approved by my distributer to be put on Spotify and the other ones. My music was suppost to release on the 20th but the distributer's moderation took forever to approve my Album.
+
+<img src="assets/markdown/blog/52824/Approved.png">
+
+Anyways, I am also working on some more music that will be posted here soonish. Happy end of spring, make sure to touch some grass, and I will see you later. Bye!
+
+<hr>
+
 ## I'm SIck, but Updates! - 5/6/24
 Hi guys, I wanted to let you all know I'm sick, but on the bright side, I've made big updates to this website! The main points of this are I finally added a light theme that will toggle with your system and looks like this for anyone who doesn't want to change there system theme:
 
