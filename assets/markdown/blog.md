@@ -1,3 +1,13 @@
+## It's released! - 5/30/24
+
+Guys, Stormy's Music Dump 1 is released on Spotify, Apple Music, Tidal, Amazon Music, and Deezer (For the 2 people who use it). I hope you all enjoy the music!
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5C4p8nWI1p52RZKpYqf2kk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+Anyways, don't be devious, and have a great day!
+
+<hr>
+
 ## Stormy's Music Dump 1! - 5/28/24
 Alright guys, this is crazy but my music finally got approved by my distributer to be put on Spotify and the other ones. My music was suppost to release on the 20th but the distributer's moderation took forever to approve my Album.
 
