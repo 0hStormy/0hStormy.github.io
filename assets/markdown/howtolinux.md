@@ -32,6 +32,8 @@ For beginners, generally Debian based distrobutions such as Ubuntu or Linux Mint
 
 * **Linux Mint**: Debian/Ubuntu based, uses `apt`, aims for bi-annual release cycle, uses Cinnamon desktop, stable
 
+* **Debian**: It's own project, uses `apt`, release every 2 years, very stable, adopts standards slower than most Distros
+
 * **Fedora**: It's own project, uses `dnf`, rolling release, uses Gnome desktop by default, stable although adopts new standards quickly
 
 * **Arch**: It's own project, uses `pacman`, rolling release, more on the unstable side, built it yourself Distro, no default desktop
@@ -84,4 +86,15 @@ First, please **backup ALL of your data!** Because this will wipe your storage d
 * An empty USB flash drive
 * An internet connection
 
-Now that you have everything, you will need to choose your <a href="distro">Distrobution</a>
+Now that you have everything, you will need to choose your <a href="distro">Distrobution</a>. Once you have chosen that, download the `.iso` file from the Distro's website. Then you use a tool like <a href="https://etcher.balena.io/">Balena Etcher</a> to write the `.iso` file to your USB flash drive. Once you have done that you will plug in your USB flash drive, and then reboot your computer into the temporary boot menu with on of the following keys
+
+* Dell: F12
+* HP: Escape
+* Lenovo: F12
+* Toshiba: F12 or F2
+* Gateway: F12
+* Other: Search it up
+
+Once you're in the boot menu, use the arrow keys to choose something along the lines of *"USB HDD"* or *"USB FLASH DRIVE"*, hit `enter` once your found your USB flash drive. It should boot you into <a href="https://en.wikipedia.org/wiki/GNU_GRUB">GRUB</a>, just choose the on along the lines of *"Try or Install `Insert Distro`"*.
+
+Now you should be in <u>Live Mode, which allows you to try Linux without installing it</u>, as it runs off the USB flash drive. It should either **pop-up** wanting to install or there should be a **shortcut** on the desktop to install it. To install, just go through the install process the <a href="distro">Distro</a>. gives you. Once finished, reboot with the USB flash drive unplugged and you should have a fresh install of the Linux <a href="distro">Distro</a>. of your choice
