@@ -28,16 +28,44 @@ A distrobution, or distro for short, is a version of a Linux that company, group
 
 For beginners, generally Debian based distrobutions such as Ubuntu or Linux Mint are a good start, although feel free to start with anything, I just recommend these because they work well by default and are a little easier to setup.
 
+* **Ubuntu**: Debian based, use `apt`, bi-annual release cycle, uses Gnome desktop by default, stable
+
+* **Linux Mint**: Debian/Ubuntu based, uses `apt`, aims for bi-annual release cycle, uses Cinnamon desktop, stable
+
+* **Fedora**: It's own project, uses `dnf`, rolling release, uses Gnome desktop by default, stable although adopts new standards quickly
+
+* **Arch**: It's own project, uses `pacman`, rolling release, more on the unstable side, built it yourself Distro, no default desktop
+
 <hr>
 
 # Installing Applications 
 
-There are a couple ways to install software on Linux
+There are a couple ways to install software on Linux, mainly you can use a software center, or a package manager. There is also <a href="https://www.winehq.org/">Wine</a> if you need to install Windows programs, but is not super easy to use for new users.
 
 ## Software Center
 
-Most popular Linux distros these days have a software center installed to install applications with ease, some examples of software centers include Gnome Software and KDE Discover.
+Most popular Linux distros these days have a software center installed to install applications with ease, some examples of software centers include Gnome Software and KDE Discover. Software centers usually support your Distro's packages, Flatpaks, and Snaps.
+
+* Easy for new users to use
+* Updates are made simple
 
 ## Package Manager
 
-You can also install software, or packages as they're also known in the terminal with a package manager such as `apt`, `dnf`, and `pacman`. As an example, you could do `sudo apt install firefox`, or `sudo pacman -S rust`.
+You can also install software, or packages as they're also known in the terminal with a package manager such as `apt`, `dnf`, and `pacman`. As an example, you could do `sudo apt install firefox`, or `sudo pacman -S rust`. Package managers also offer the ability to install system programs if needed, unlike something like Flatpak.
+
+* Installed with your Distro almost no matter what
+* System programs and utilities are a easier to install
+
+## Flatpak
+
+Flatpaks are a way to install programs that doesn't depend on what Distro you're using, they also are more secure and they simplify the process of publishing applications for developers. To install Flatpak, follow the simple <a href="https://www.flatpak.org/setup/">installation guide</a> for your Distro. And to install an app with Flatpak, you can either use your Software Center, or use the `flatpak` command.
+
+* Distro independent
+* Offers Sandboxing
+
+## WIndows Programs
+
+Although not as easy, you can install windows programs with the Windows compatablility layer known as <a href="https://www.winehq.org/">Wine</a>. WIne is a Widow compatability layer that has been under development for over 20 years, it can run most Windows programs that don't explicitly block it. To use Wine, first check if there is a native Linux version of the program, because it will usually be better. Second, if that's not available, install Wine with their <a href="https://wiki.winehq.org/Download">install guide</a>. Then you will just download the program you want to insttall and install it like a normal Windows program. And if you need any support, google it.
+
+* Compatablility with specific software
+* WIndows programs won't mess with the rest of your system
