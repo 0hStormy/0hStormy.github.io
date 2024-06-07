@@ -20,7 +20,7 @@ The desktop environment is what makes your comuter have a nice graphical interfa
 
 These images show the defaults of each of the desktop environments. In reality, you can customize these desktops as much as you want to make it work for you. In the end, just look around and see which one is your favorite.
 
-<hr>
+<hr> <id="distro">
 
 # Distrobutions
 
@@ -63,9 +63,25 @@ Flatpaks are a way to install programs that doesn't depend on what Distro you're
 * Distro independent
 * Offers Sandboxing
 
-## WIndows Programs
+## Windows Programs
 
 Although not as easy, you can install windows programs with the Windows compatablility layer known as <a href="https://www.winehq.org/">Wine</a>. WIne is a Widow compatability layer that has been under development for over 20 years, it can run most Windows programs that don't explicitly block it. To use Wine, first check if there is a native Linux version of the program, because it will usually be better. Second, if that's not available, install Wine with their <a href="https://wiki.winehq.org/Download">install guide</a>. Then you will just download the program you want to insttall and install it like a normal Windows program. And if you need any support, google it.
 
 * Compatablility with specific software
 * WIndows programs won't mess with the rest of your system
+
+<hr>
+
+# Installing
+
+So you're ready to make the plunge? Or maybe you want to try Linux in a Virtual Machine? Let's find out how to install Linux!
+
+## Real Hardware
+
+First, please **backup ALL of your data!** Because this will wipe your storage drive clean unless you decide to duel-boot, which we will not go into today. Now on real hardware, you need a few things, you need:
+
+* A Computer
+* An empty USB flash drive
+* An internet connection
+
+Now that you have everything, you will need to choose your <a href="distro">Distrobution</a>
