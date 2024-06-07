@@ -57,7 +57,7 @@ img {
   cursor: pointer;
   transition: all, cubic-bezier(0.175, 0.885, 0.32, 1.275), 0.25s;
   width: 80%;
-  max-width: 540px;
+  max-width: 720px;
 }
 
 img:active {
