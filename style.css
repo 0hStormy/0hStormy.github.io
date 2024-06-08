@@ -137,6 +137,11 @@ iframe {
   border: none;
 }
 
+code {
+  background-color: var(--background);
+  padding: 2px;
+}
+
 .div_audio {
   max-width: 95%;
   background-color: var(--main);

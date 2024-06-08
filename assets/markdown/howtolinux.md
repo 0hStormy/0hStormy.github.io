@@ -86,7 +86,7 @@ First, please **backup ALL of your data!** Because this will wipe your storage d
 * An empty USB flash drive
 * An internet connection
 
-Now that you have everything, you will need to choose your <a href="#distro">Distrobution</a>. Once you have chosen that, download the `.iso` file from the Distro's website. Then you use a tool like <a href="https://etcher.balena.io/">Balena Etcher</a> to write the `.iso` file to your USB flash drive. Once you have done that you will plug in your USB flash drive, and then reboot your computer into the temporary boot menu with on of the following keys
+Now that you have everything, you will need to choose your <a href="#distrobutions">Distrobution</a>. Once you have chosen that, download the `.iso` file from the Distro's website. Then you use a tool like <a href="https://etcher.balena.io/">Balena Etcher</a> to write the `.iso` file to your USB flash drive. Once you have done that you will plug in your USB flash drive, and then reboot your computer into the temporary boot menu with on of the following keys
 
 * Dell: F12
 * HP: Escape
@@ -95,6 +95,10 @@ Now that you have everything, you will need to choose your <a href="#distro">Dis
 * Gateway: F12
 * Other: Search it up
 
-Once you're in the boot menu, use the arrow keys to choose something along the lines of *"USB HDD"* or *"USB FLASH DRIVE"*, hit `enter` once your found your USB flash drive. It should boot you into <a href="https://en.wikipedia.org/wiki/GNU_GRUB">GRUB</a>, just choose the on along the lines of *"Try or Install `Insert Distro`"*.
+Once you're in the boot menu, use the arrow keys to choose something along the lines of *"USB HDD"* or *"USB FLASH DRIVE"*, hit `enter` once your found your USB flash drive. It should boot you into <a href="https://en.wikipedia.org/wiki/GNU_GRUB">GRUB</a>, just choose the on along the lines of *"Try or Install `Insert Distro Here`"*.
 
-Now you should be in <u>Live Mode, which allows you to try Linux without installing it</u>, as it runs off the USB flash drive. It should either **pop-up** wanting to install or there should be a **shortcut** on the desktop to install it. To install, just go through the install process the <a href="#distro">Distro</a>. gives you. Once finished, reboot with the USB flash drive unplugged and you should have a fresh install of the Linux <a href="#distro">Distro</a>. of your choice
+<img src="assets/howtolinux/grub.png">
+
+Now you should be in <u>Live Mode, which allows you to try Linux without installing it</u>, as it runs off the USB flash drive. It should either **pop-up** wanting to install or there should be a **shortcut** on the desktop to install it. To install, just go through the install process the <a href="#distrobutions">Distro</a>. gives you. Once finished, reboot with the USB flash drive unplugged and you should have a fresh install of the Linux <a href="#distrobutions">Distro</a>. of your choice
+
+*Updated as of 6/7/24*
