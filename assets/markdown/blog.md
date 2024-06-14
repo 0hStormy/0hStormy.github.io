@@ -1,3 +1,9 @@
+## Projects is here!
+
+Quick update, I have a projects page now. Currently there are 4 projects and I will have more in the future, those being How to Linux, 0Trumpet, RIFT, and PSI. I also renamed this page to updates, these aren't really blogs when you think about it. Anyways, byeee!
+
+<hr>
+
 ## It's released! - 5/30/24
 
 Guys, Stormy's Music Dump 1 is released on Spotify, Apple Music, Tidal, Amazon Music, and Deezer (For the 2 people who use it). I hope you all enjoy the music!

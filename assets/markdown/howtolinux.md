@@ -74,6 +74,31 @@ Although not as easy, you can install windows programs with the Windows compatab
 
 <hr>
 
+# Package Managers
+
+A package manager is a way to install applications or libraries in your terminal, they can also integrate with other apps like a <a href="#software-center">Software Center</a>. They can be used for things as simple as installing something like <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> to updating your whole system to a new version of your Distro. They work by fetching a list off programs and libraries from repositories, or repos for short. Then it will find where to download that program from the repo and install it.
+
+Here is a list of the 3 main package managers you will find on Linux and there key differences.
+
+### apt
+* Stable
+* Easy to use
+* Interface can be clunky at times
+
+### dnf
+* Easy to use
+* Has an easy way to add repos called <a href="https://copr.fedorainfracloud.org/">COPR</a>
+* Slow because it always fetches the latest versions of repos
+
+### pacman
+* Fast
+* Confusing to use at first
+* Let's you break your system
+
+Overall, it honestly doesn't matter that much what package manager you use, just find one that works for you and stick with it. Be aware that Distro ship specific packages managers, EX: Debian uses `apt`, which means you will be stuck with that package manager.
+
+<hr>
+
 # Installing
 
 So you're ready to make the plunge? Or maybe you want to try Linux in a Virtual Machine? Let's find out how to install Linux!

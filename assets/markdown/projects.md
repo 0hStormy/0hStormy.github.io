@@ -4,6 +4,12 @@ How to Linux is a guide that will teach you all the basics of Linux from the ker
 
 <hr>
 
+# <a href="0trumpet.html">0Trumpet</a>
+
+0Trumpet is a trumpet soundfont that I recorded and put together myself, I would say it's decent enough for basic things concidering it's free. I have an example piece if you click on the 0Trumpet link.
+
+<hr>
+
 # <a href="https://github.com/0hStormy/RIFT">RIFT</a>
 
 RIFT is a file downlading client that uses repositrories to organize files. It is decentralized since all the program needs to work correctly is a repository file.
