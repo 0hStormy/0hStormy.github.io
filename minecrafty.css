@@ -1,0 +1,190 @@
+:root {
+  --background: #a0a0a0;
+  --main: #c3c3c3;
+  --alt: #acacac;
+  --alt2: #dfdfdf;
+  --text: #000000;
+  --accent: #64ac43;
+  --banner: #dd9858;
+  --banner2: #d67636;
+  --shadows: #444444;
+  --screenwidth: ;
+}
+
+html {
+  background-image: url("assets/stonewall.jpg");
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("assets/fonts/minecraft3.otf");
+}
+
+body {
+  font-family: Minecraft, Arial;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin: 0;
+  padding-bottom: 80px;
+  line-height: 150%;
+  font-smooth: never;
+  -webkit-font-smoothing : none;
+}
+
+hr {
+height: 2pt;
+background-color: var(--shadows);
+border: none;
+}
+
+a {
+color: var(--accent);
+text-decoration: none;
+}
+
+img {
+cursor: pointer;
+transition: all, cubic-bezier(0.175, 0.885, 0.32, 1.275), 0.25s;
+width: 100%;
+max-width: 720px;
+box-shadow: var(--shadows) 4px 4px 0px;
+}
+
+img:active {
+z-index: 1;
+width: 100%;
+max-width: 1280px;
+scale: 1.2;
+box-shadow: var(--accent) 0px 0px 60px;
+}
+
+.spoiler {
+filter: blur(10px);
+}
+
+.spoiler:active:active {
+z-index: 1;
+filter: blur(0px);
+}
+
+.flag {
+width: 20px;
+}
+
+
+.banner {
+height: 150pt;
+background-image: linear-gradient(to bottom right, var(--banner), var(--banner2));
+margin: 20pt;
+margin-inline: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50pt;
+font-weight: bold;
+color: white;
+box-shadow: var(--shadows) 4px 4px 0px;
+}
+
+.root {
+max-width: fit-content;
+margin-inline: auto;
+text-align: center;
+width: 90%;
+}
+
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--main);
+padding: 10pt;
+text-align: start;
+border-width: 2pt;
+max-width: 960px;
+box-shadow: var(--shadows) 6px 6px 0px;
+transition: all, 0.5s;
+border-radius: 2px;
+margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--alt2);
+  padding: 15px 100px;
+  box-shadow: 0px 10px 35px var(--shadows);  
+  border-color: transparent;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: var(--text);
+  border-style:solid;
+  border-color: var(--accent);
+  font-weight: bold;
+}
+
+.box-big {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--main);
+padding: 10pt;
+text-align: start;
+box-shadow: var(--shadows) 0px 0px 50px;
+transition: all, 0.5s;
+}
+
+iframe {
+width: 100%;
+border: none;
+}
+
+code {
+background-color: var(--background);
+padding: 2px;
+}
+
+.div_audio {
+max-width: 95%;
+background-color: var(--main);
+border-width: 2pt;
+border-style:solid;
+border-color: var(--accent);
+padding: 10pt;
+margin: 10pt;
+box-shadow: var(--shadows) 0px 0px 50px;
+}
+
+audio {
+  border-style:solid;
+  border-color: var(--accent);
+}
+
+.topnav {
+  background-color: var(--main);
+  box-shadow: var(--alt2) 0px -4px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 5px;
+  left: 0;
+}
+
+.topnav a {
+  float: left;
+  color: var(--text);
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  transition: all, 0.2s;
+}
+
+.topnav a:hover {
+  background-color: var(--alt2);
+}
+
+.topnav a.active {
+  background-color: var(--accent);
+  color: white;
+}

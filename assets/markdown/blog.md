@@ -1,4 +1,4 @@
-## Projects is here!
+## Projects page is here! - 6/13/24
 
 Quick update, I have a projects page now. Currently there are 4 projects and I will have more in the future, those being How to Linux, 0Trumpet, RIFT, and PSI. I also renamed this page to updates, these aren't really blogs when you think about it. Anyways, byeee!
 

@@ -17,6 +17,12 @@ Touhou 12.3 Unthinkable Natural Law: Beloved Tomboyish Girl
     Your browser does not support the audio tag.
 </audio>
 
+<div id="audio-player-container">
+  <p>Audio Player</p>
+  <!-- swaps with pause icon -->
+  <button id="play-icon"></button>
+</div>
+
 <hr>
 
 ## Download

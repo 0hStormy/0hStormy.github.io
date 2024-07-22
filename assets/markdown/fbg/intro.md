@@ -1,0 +1,3 @@
+# Introduction
+
+Funny Border Game 2 is the sequal to a border/RPG-ish game created on DiamondFire, a Minecraft server all about coding your own games. Funny Border Game 2 is all about getting enough money to try and leave the ancient desert town known as Desertia, where you start, and get to Jungle Town which is a land of opportunity. Once you're in Jungle Town, you are free to live your life how ever you please, whether that may be farming, cooking, logging trees, becoming a border guard or police, or even just causing trouble. You choose how your live in Jungle Town.

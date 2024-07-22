@@ -32,3 +32,4 @@ Here are my socials:
 * <a href="https://github.com/0hStormy">Github</a>
 * <a href="https://modrinth.com/user/0Stormy">Modirnth</a>
 * <a href="">Discord: 0hstormy</a>
+* <a rel="me" href="https://tech.lgbt/@stormy">Mastodon</a>
