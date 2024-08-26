@@ -56,21 +56,22 @@ Most popular Linux distros these days have a software center installed to instal
 You can also install software, or packages as they're also known in the terminal with a package manager such as `apt`, `dnf`, and `pacman`. As an example, you could do `sudo apt install firefox`, or `sudo pacman -S rust`. Package managers also offer the ability to install system programs if needed, unlike something like Flatpak.
 
 * Installed with your Distro almost no matter what
-* System programs and utilities are a easier to install
+* System programs and utilities are easier/possible to install
 
 ## Flatpak
 
 Flatpaks are a way to install programs that doesn't depend on what Distro you're using, they also are more secure and they simplify the process of publishing applications for developers. To install Flatpak, follow the simple <a href="https://www.flatpak.org/setup/">installation guide</a> for your Distro. And to install an app with Flatpak, you can either use your Software Center, or use the `flatpak` command.
 
 * Distro independent
-* Offers Sandboxing
+* Offers Sandboxing for security
 
 ## Windows Programs
 
-Although not as easy, you can install windows programs with the Windows compatablility layer known as <a href="https://www.winehq.org/">Wine</a>. WIne is a Widow compatability layer that has been under development for over 20 years, it can run most Windows programs that don't explicitly block it. To use Wine, first check if there is a native Linux version of the program, because it will usually be better. Second, if that's not available, install Wine with their <a href="https://wiki.winehq.org/Download">install guide</a>. Then you will just download the program you want to insttall and install it like a normal Windows program. And if you need any support, google it.
+Although not as easy, you can install windows programs with the Windows compatablility layer known as <a href="https://www.winehq.org/">Wine</a>. WIne is a Windows compatability layer that has been under development for over 20 years, it can run most Windows programs that don't explicitly block it. To use Wine, first check if there is a native Linux version of the program, because it will usually be better. Second, if that's not available, install Wine with their <a href="https://wiki.winehq.org/Download">install guide</a>. Then you will just download the program you want to insttall and install it like a normal Windows program. And if you need any support, google it.
 
 * Compatablility with specific software
-* WIndows programs won't mess with the rest of your system
+* Windows programs won't mess with the rest of your system
+* Wine can interact with your native Documents folder
 
 <hr>
 
@@ -88,7 +89,7 @@ Here is a list of the 3 main package managers you will find on Linux and there k
 ### dnf
 * Easy to use
 * Has an easy way to add repos called <a href="https://copr.fedorainfracloud.org/">COPR</a>
-* Slow because it always fetches the latest versions of repos
+* Slower because it always fetches the latest versions of repos
 
 ### pacman
 * Fast
@@ -102,6 +103,8 @@ Overall, it honestly doesn't matter that much what package manager you use, just
 # Installing
 
 So you're ready to make the plunge? Or maybe you want to try Linux in a Virtual Machine? Let's find out how to install Linux!
+
+**I am not responsible for any damage done to your computer!**
 
 ## Real Hardware
 
@@ -118,7 +121,7 @@ Now that you have everything, you will need to choose your <a href="#distrobutio
 * Lenovo: F12
 * Toshiba: F12 or F2
 * Gateway: F12
-* Other: Search it up
+* Other/Custom-Build: Search it up
 
 Once you're in the boot menu, use the arrow keys to choose something along the lines of *"USB HDD"* or *"USB FLASH DRIVE"*, hit `enter` once your found your USB flash drive. It should boot you into <a href="https://en.wikipedia.org/wiki/GNU_GRUB">GRUB</a>, just choose the on along the lines of *"Try or Install `Insert Distro Here`"*.
 

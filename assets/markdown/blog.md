@@ -1,3 +1,11 @@
+## It's been a while - 8/26/24
+
+Hi, so it's been a bit. I have been doing fine but I completely forgot about this website. I have released 0Trumpet version 2 and Stormy's Music Dump 2 is out finally! Check it out on Bandcamp today!
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1272783063/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://0stormy.bandcamp.com/album/stormys-music-dump-2">Stormy&#39;s Music Dump 2 by 0Stormy</a></iframe>
+
+<hr>
+
 ## Projects page is here! - 6/13/24
 
 Quick update, I have a projects page now. Currently there are 4 projects and I will have more in the future, those being How to Linux, 0Trumpet, RIFT, and PSI. I also renamed this page to updates, these aren't really blogs when you think about it. Anyways, byeee!

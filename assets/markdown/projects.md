@@ -1,6 +1,6 @@
 # <a href="howtolinux.html">How to Linux</a>
 
-How to Linux is a guide that will teach you all the basics of Linux from the kernel to desktop. This guide is mainly for beginner/intermediate users.
+How to Linux is a guide that will teach you all the basics of Linux from the basics to more advanced things. This guide targets beginner/intermediate users.
 
 <hr>
 
@@ -10,7 +10,7 @@ How to Linux is a guide that will teach you all the basics of Linux from the ker
 
 <hr>
 
-# <a href="https://github.com/0hStormy/RIFT">RIFT</a>
+# <a href="https://openrift.github.io">RIFT</a>
 
 RIFT is a file downlading client that uses repositrories to organize files. It is decentralized since all the program needs to work correctly is a repository file.
 
