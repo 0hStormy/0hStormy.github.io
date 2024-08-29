@@ -1,3 +1,13 @@
+## How to Linux update and RIFT website! - 8/29/24
+
+So How to Linux has gotten an update, I have added information about NixOS and the Nix package manager and also reworded and fixed typos. It should be live as soon as the Updates page goes live.
+
+I also have a website for RIFT now with a cool logo to go with it! It has info about the program and where to download it, along with documentation. You can check out the website at https://openrift.github.io/
+
+<iframe src="https://openrift.github.io/" height="400"></iframe>
+
+<hr>
+
 ## It's been a while - 8/26/24
 
 Hi, so it's been a bit. I have been doing fine but I completely forgot about this website. I have released 0Trumpet version 2 and Stormy's Music Dump 2 is out finally! Check it out on Bandcamp today!

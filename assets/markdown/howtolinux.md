@@ -38,6 +38,8 @@ For beginners, generally Debian based distrobutions such as Ubuntu or Linux Mint
 
 * **Arch**: It's own project, uses `pacman`, rolling release, more on the unstable side, built it yourself Distro, no default desktop
 
+* **NixOS**: It's own project, uses `nix`, rolling release. Very different from the others as everything is setup with config file(s), more info [here](https://github.com/NixOS/nix).
+
 <hr>
 
 # Installing Applications 
@@ -67,10 +69,9 @@ Flatpaks are a way to install programs that doesn't depend on what Distro you're
 
 ## Windows Programs
 
-Although not as easy, you can install windows programs with the Windows compatablility layer known as <a href="https://www.winehq.org/">Wine</a>. WIne is a Windows compatability layer that has been under development for over 20 years, it can run most Windows programs that don't explicitly block it. To use Wine, first check if there is a native Linux version of the program, because it will usually be better. Second, if that's not available, install Wine with their <a href="https://wiki.winehq.org/Download">install guide</a>. Then you will just download the program you want to insttall and install it like a normal Windows program. And if you need any support, google it.
+Although not as easy, you can install windows programs with the Windows compatablility layer known as <a href="https://www.winehq.org/">Wine</a>. Wine is a Windows compatability layer. Wine can a large majority of Windows programs that don't explicitly block it. To use Wine, first check if there is a native Linux version of the program, because it will usually be better. Second, if that's not available, install Wine with their <a href="https://wiki.winehq.org/Download">install guide</a>. Then you will just download the program you want to insttall and install it like a normal Windows program. And if you need any support, google it.
 
 * Compatablility with specific software
-* Windows programs won't mess with the rest of your system
 * Wine can interact with your native Documents folder
 
 <hr>
@@ -79,7 +80,7 @@ Although not as easy, you can install windows programs with the Windows compatab
 
 A package manager is a way to install applications or libraries in your terminal, they can also integrate with other apps like a <a href="#software-center">Software Center</a>. They can be used for things as simple as installing something like <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> to updating your whole system to a new version of your Distro. They work by fetching a list off programs and libraries from repositories, or repos for short. Then it will find where to download that program from the repo and install it.
 
-Here is a list of the 3 main package managers you will find on Linux and there key differences.
+Here is a list of a few main package managers you will find on Linux and there key differences.
 
 ### apt
 * Stable
@@ -93,10 +94,17 @@ Here is a list of the 3 main package managers you will find on Linux and there k
 
 ### pacman
 * Fast
-* Confusing to use at first
+* Has a bigger learning curve
 * Let's you break your system
 
+### nix
+* Uses config files to help deal with "Works on my machine 🤓"
+* Allows you to restore your system if syou nuke your system
+* Could be confusing to a new user
+* Distro independent
+
 Overall, it honestly doesn't matter that much what package manager you use, just find one that works for you and stick with it. Be aware that Distro ship specific packages managers, EX: Debian uses `apt`, which means you will be stuck with that package manager.
+
 
 <hr>
 
@@ -129,4 +137,4 @@ Once you're in the boot menu, use the arrow keys to choose something along the l
 
 Now you should be in <u>Live Mode, which allows you to try Linux without installing it</u>, as it runs off the USB flash drive. It should either **pop-up** wanting to install or there should be a **shortcut** on the desktop to install it. To install, just go through the install process the <a href="#distrobutions">Distro</a>. gives you. Once finished, reboot with the USB flash drive unplugged and you should have a fresh install of the Linux <a href="#distrobutions">Distro</a>. of your choice
 
-*Updated as of 6/7/24*
+*Updated as of 8/29/24*
