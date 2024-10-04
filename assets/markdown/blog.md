@@ -1,3 +1,9 @@
+## Little update - 10/4/24
+
+It's been a while since I've talked here. I have been focused on school mainly, I have been working on music a little bit, but don't expect a new music dump for a while. I've hit a bit of a roadblock with RIFT, I'm now on the "make it good" stage of RIFT where I need to make the program a lot less badly coded and also make it more intuitive.
+
+I hope you all have a good day!
+
 ## How to Linux update and RIFT website! - 8/29/24
 
 So How to Linux has gotten an update, I have added information about NixOS and the Nix package manager and also reworded and fixed typos. It should be live as soon as the Updates page goes live.
