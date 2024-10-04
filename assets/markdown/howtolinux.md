@@ -108,6 +108,30 @@ Overall, it honestly doesn't matter that much what package manager you use, just
 
 <hr>
 
+# Gaming
+
+Currently, gaming on Linux is actually pretty usable, I would even say it's better than on MacOS, with issues here and there. A TLDR for this section is if you don't play the newest most advanced games with anticheat, you'll be good for the most part.
+
+## Steam
+
+Steam makes gaming on Linux super easy. Here is a quick step by step guide to setup Steam on Linux.
+
+1. Go to your software center and search for Steam, and click install
+2. Open Steam
+3. Wait for steam to update
+4. Login
+5. Go to `Settings > Steam Play > Enable Steam Play for all titles`
+6. Restart Steam
+7. Enjoy!
+
+Steam uses a compatability layer called Proton, based on <a href="https://www.winehq.org/">Wine</a>. Proton has a binch of fixes for games specifically so runs really well. It even has some compatability with Easy Anti-Cheat and BattlEye.
+
+## Other games
+
+For other games that aren't on Steam, you can try Lutris or Bottles, which are wrappers for <a href="https://www.winehq.org/">Wine</a> that have installers for other launchers and programs.
+
+For Roblox. The Roblox player with Wine has been blocked, you can still use <a href="https://vinegarhq.org/"> for Roblox Studio. You should use <a href="https://sober.vinegarhq.org/"> for the Roblox player, it is a runtime for the Android version of Roblox. It is closed source but still is a really good program.
+
 # Installing
 
 So you're ready to make the plunge? Or maybe you want to try Linux in a Virtual Machine? Let's find out how to install Linux!
