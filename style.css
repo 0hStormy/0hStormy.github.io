@@ -101,7 +101,6 @@ box-shadow: var(--shadows) 0px 0px 50px;
 max-width: fit-content;
 margin-inline: auto;
 text-align: center;
-width: 90%;
 }
 
 .box {
@@ -132,18 +131,6 @@ button {
   border-style:solid;
   border-color: var(--accent);
   font-weight: bold;
-}
-
-.box-big {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: var(--main);
-padding: 10pt;
-border-radius: 10pt;
-text-align: start;
-box-shadow: var(--shadows) 0px 0px 50px;
-transition: all, 0.5s;
 }
 
 iframe {

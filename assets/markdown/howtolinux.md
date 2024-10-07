@@ -120,7 +120,7 @@ Steam makes gaming on Linux super easy. Here is a quick step by step guide to se
 2. Open Steam
 3. Wait for steam to update
 4. Login
-5. Go to `Settings > Steam Play > Enable Steam Play for all titles`
+5. Go to `Settings > Steam Play > Enable Steam Play for all other titles`
 6. Restart Steam
 7. Enjoy!
 
@@ -130,7 +130,9 @@ Steam uses a compatability layer called Proton, based on <a href="https://www.wi
 
 For other games that aren't on Steam, you can try Lutris or Bottles, which are wrappers for <a href="https://www.winehq.org/">Wine</a> that have installers for other launchers and programs.
 
-For Roblox. The Roblox player with Wine has been blocked, you can still use <a href="https://vinegarhq.org/"> for Roblox Studio. You should use <a href="https://sober.vinegarhq.org/"> for the Roblox player, it is a runtime for the Android version of Roblox. It is closed source but still is a really good program.
+For Roblox. The Roblox player with Wine has been blocked, you can still use <a href="https://vinegarhq.org/">Vinegar</a> for Roblox Studio. You should use <a href="https://sober.vinegarhq.org/">Sober</a> for the Roblox player, it is a runtime for the Android version of Roblox. It is closed source but still is a really good program.
+
+<hr>
 
 # Installing
 
@@ -161,4 +163,4 @@ Once you're in the boot menu, use the arrow keys to choose something along the l
 
 Now you should be in <u>Live Mode, which allows you to try Linux without installing it</u>, as it runs off the USB flash drive. It should either **pop-up** wanting to install or there should be a **shortcut** on the desktop to install it. To install, just go through the install process the <a href="#distrobutions">Distro</a>. gives you. Once finished, reboot with the USB flash drive unplugged and you should have a fresh install of the Linux <a href="#distrobutions">Distro</a>. of your choice
 
-*Updated as of 8/29/24*
+*Updated as of 10/6/24*

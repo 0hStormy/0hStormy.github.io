@@ -4,6 +4,8 @@ It's been a while since I've talked here. I have been focused on school mainly, 
 
 I hope you all have a good day!
 
+<hr>
+
 ## How to Linux update and RIFT website! - 8/29/24
 
 So How to Linux has gotten an update, I have added information about NixOS and the Nix package manager and also reworded and fixed typos. It should be live as soon as the Updates page goes live.
