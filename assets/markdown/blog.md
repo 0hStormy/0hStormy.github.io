@@ -1,3 +1,9 @@
+## RIFT Rewrite and theme refresh! - 11/6/24
+
+I got bored so I decided to refresh the theme for my website, I think it's a lot nicer for reading. I have also been working on a rewrite of RIFT that you can check out on my GitHub, currently it's bare bones but the code is a lot neater which I'm happy about!
+
+---
+
 ## Little update - 10/4/24
 
 It's been a while since I've talked here. I have been focused on school mainly, I have been working on music a little bit, but don't expect a new music dump for a while. I've hit a bit of a roadblock with RIFT, I'm now on the "make it good" stage of RIFT where I need to make the program a lot less badly coded and also make it more intuitive.
