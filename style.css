@@ -1,42 +1,19 @@
 :root {
-  --background: #222;
-  --main: #313131;
-  --alt: #1f1f1f;
-  --alt2: #3b3b3b;
+  --background: #101726;
+  --main: #1d2735;
+  --alt: #354152;
+  --alt2: #313a57;
   --text: #fff;
-  --accent: #855ad4;
-  --accent2: #494491;
+  --accent: #7d71e7;
+  --accent2: #4f349b;
   --shadows: #111;
   --screenwidth: ;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #cfc5e6;
-    --main: #e1dff1;
-    --alt: #c9bbd4;
-    --alt2: #beb4c7;
-    --text: #241f30;
-    --accent: #8157cf;
-    --accent2: #494491;
-    --shadows: #79757e;
-    --screenwidth: ;
-  }
-
-  hr {
-    box-shadow: var(--background) 0px 0px 20px;
-  }
-
-  h1 {
-    font-weight: 400;
-  }
-}
-
 body {
-  font-family: "Ubuntu", "Noto Sans", Helvetica, sans-serif;
+  font-family: "Noto Sans", Helvetica, sans-serif;
   background-color: var(--background);
   color: var(--text);
-  margin: 20px;
   margin-top: 80px;
   line-height: 150%;
 }
@@ -47,9 +24,19 @@ background-color: var(--accent);
 border: none;
 }
 
+.logo {
+  width: 48pt;
+  filter: invert();
+  margin-inline: 10pt;
+}
+
 a {
 color: var(--accent);
 text-decoration: none;
+}
+
+h1 {
+  line-height: 120%;
 }
 
 img {
@@ -83,18 +70,19 @@ width: 20px;
 }
 
 .banner {
-height: 150pt;
-border-radius: 5pt;
+height: 200pt;
 background-image: linear-gradient(to bottom right, var(--accent), var(--accent2));
-margin: 20pt;
+margin-bottom: 20pt;
 margin-inline: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 50pt;
+text-align: center;
+font-size: 40pt;
 font-weight: bold;
 color: white;
 box-shadow: var(--shadows) 0px 0px 50px;
+line-height: 120%;
 }
 
 .root {
@@ -111,13 +99,26 @@ background-color: var(--main);
 padding: 10pt;
 border-radius: 10pt;
 text-align: start;
-border-width: 2pt;
-border-style:solid;
-border-color: var(--accent);
 max-width: 960px;
-box-shadow: var(--shadows) 0px 0px 50px;
 transition: all, 0.5s;
+margin: 15pt;
 }
+
+.subbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--alt);
+  padding: 10pt;
+  border-radius: 10pt;
+  border-style:solid;
+  border-color: var(--accent);
+  border-width: 2pt;
+  text-align: start;
+  max-width: 960px;
+  transition: all, 0.5s;
+  margin: 5pt;
+  }
 
 button {
   border-radius: 10pt;
