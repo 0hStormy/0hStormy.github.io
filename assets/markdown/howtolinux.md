@@ -22,7 +22,7 @@ These images show the defaults of each of the desktop environments. In reality, 
 
 <hr> <id="distro">
 
-# Distrobutions
+# Distributions
 
 A distrobution, or distro for short, is a version of a Linux that company, group, or a single person makes with a specific package manager, desktop environment, and set of applications to make it unique from the rest. Some popular distro's include: Ubuntu, Linux Mint, Fedora, Debian, and Arch.
 
