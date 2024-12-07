@@ -1,3 +1,7 @@
+**You are currently on a legacy version of this page, things may break!**
+
+---
+
 ## RIFT Rewrite and theme refresh! - 11/6/24
 
 I got bored so I decided to refresh the theme for my website, I think it's a lot nicer for reading. I have also been working on a rewrite of RIFT that you can check out on my GitHub, currently it's bare bones but the code is a lot neater which I'm happy about!
@@ -47,7 +51,7 @@ Anyways, don't be devious, and have a great day!
 <hr>
 
 ## Stormy's Music Dump 1! - 5/28/24
-Alright guys, this is crazy but my music finally got approved by my distributer to be put on Spotify and the other ones. My music was suppost to release on the 20th but the distributer's moderation took forever to approve my Album.
+Alright guys, this is crazy but my music finally got approved by my distributer to be put on Spotify and the other ones. My music was suppose to release on the 20th but the distributer's moderation took forever to approve my Album.
 
 <img src="assets/markdown/blog/52824/Approved.png">
 
@@ -60,12 +64,12 @@ Hi guys, I wanted to let you all know I'm sick, but on the bright side, I've mad
 
 <img src="assets/markdown/blog/50624/lightTheme.png">
 
-In my opinion I think the light mode looks pretty cool. In addition to the the light theme I added **6 new songs** to the music page, which you should really go listen to. I aslo added ways of contacting me if needed on the <a href="about.html">about</a> page. Finally, for a full changelog, go check the commit page on my <a href="https://github.com/0hStormy/0hStormy.github.io/commits/main/">github</a> page. Adiós Amigos!
+In my opinion I think the light mode looks pretty cool. In addition to the the light theme I added **6 new songs** to the music page, which you should really go listen to. I also added ways of contacting me if needed on the <a href="about.html">about</a> page. Finally, for a full changelog, go check the commit page on my <a href="https://github.com/0hStormy/0hStormy.github.io/commits/main/">github</a> page. Adiós Amigos!
 
 <hr>
 
 ## Music and crap - 5/3/24
-Ello, I just wanted to annouce I have been cooking up like 4 fire songs that I will add to this website soon. And also a early may the 4th be with you, Cya!
+Ello, I just wanted to announce I have been cooking up like 4 fire songs that I will add to this website soon. And also a early may the 4th be with you, Cya!
 
 <hr>
 
