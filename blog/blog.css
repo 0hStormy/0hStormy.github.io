@@ -100,14 +100,12 @@ p {
   .root {
   max-width: fit-content;
   margin-inline: auto;
-  text-align: center;
   }
   
   .box {
   background-color: var(--background);
   padding: 10pt;
   border-radius: 10pt;
-  text-align: start;
   max-width: 960px;
   transition: all, 0.5s;
   margin: 15pt;
