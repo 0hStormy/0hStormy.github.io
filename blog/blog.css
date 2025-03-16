@@ -121,7 +121,6 @@ p {
     text-align: start;
     max-width: 960px;
     transition: all, 0.5s;
-    background: var(--main);
     margin: 20px;
     padding: 4px;
     padding-inline: 8px;
