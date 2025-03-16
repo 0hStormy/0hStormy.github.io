@@ -98,8 +98,11 @@ p {
   }
   
   .root {
-  max-width: fit-content;
-  margin-inline: auto;
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-inline: 32px;
+    justify-self: center;
+    max-width: 900px;
   }
   
   .box {
@@ -180,4 +183,8 @@ p {
     border-color: var(--accent);
     border-radius: 30pt;
   }
-  
+
+  .vertical {
+    display: flex;
+    flex-direction: column;
+  }
