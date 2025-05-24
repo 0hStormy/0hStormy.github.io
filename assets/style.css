@@ -1,22 +1,19 @@
 :root {
-    --background: #e9e9e9;
-    --main: #ebebeb;
-    --alt: #b8b8b8;
-    --alt2: #c5c5c5;
-    --text: #000000;
-    --tinytext: #646464;
-    --accent: #5bacf8;
-    --accent2: #4574cc;
+    --background: #2b2b2b;
+    --main: #353535;
+    --alt: #505050;
+    --alt2: #555555;
+    --text: #fff;
+    --tinytext: #b3b3b3;
+    --accent: #9e71e7;
+    --accent2: #7945cc;
     --shadows: #111;
     --screenwidth: ;
   }
   
   body {
     font-family: "Noto Sans", Helvetica, sans-serif;
-    background-image: url(/images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1a7a87;
+    background-color: var(--background);
     color: var(--text);
     margin-top: 80px;
     line-height: 150%;
@@ -39,7 +36,7 @@
   }
   
   a {
-  color: var(--accent2);
+  color: var(--accent);
   text-decoration: none;
   }
   
@@ -108,32 +105,25 @@ h1 {
   }
   
   .box {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(8px);
+  background-color: var(--background);
   padding: 10pt;
   border-radius: 10pt;
   text-align: start;
   max-width: 960px;
   transition: all, 0.5s;
   margin: 15pt;
-  outline: solid;
-  outline-width: 6px;
-  outline-color: rgba(255, 255, 255, 0.3);
-  box-shadow: black 0px 0px 50px;
   }
 
   .project {
-    outline: solid;
-    outline-width: 6px;
-    outline-color: rgba(255, 255, 255, 0.3);
-    box-shadow: black 0px 0px 50px;
+    @media screen and (min-width: 800px) {
+      display: flex;
+    }
     justify-content: center;
     align-items: center;
     text-align: start;
     max-width: 960px;
     transition: all, 0.5s;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(8px);
+    background: var(--main);
     margin: 20px;
     padding: 4px;
     padding-inline: 8px;
@@ -141,9 +131,6 @@ h1 {
     border-radius: 8px;
     line-height: 1.65;
     box-shadow: var(--shadows) 0px 4px 8px;
-    @media screen and (min-width: 800px) {
-      display: flex;
-    }
   }
   
   .project h2 {
@@ -214,11 +201,20 @@ h1 {
     border-color: var(--accent);
     border-radius: 30pt;
   }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid img {
+    all: unset;
+    width: 50%;
+    height: 50%;
+  }
   
   .topnav {
-    background-image: url(/images/taskbar.png);
-    background-size: contain;
-    backdrop-filter: blur(8px);
+    background-color: var(--main);
     box-shadow: var(--shadows) 0px 0px 50px;
     display: flex;
     justify-content: center;
@@ -232,21 +228,18 @@ h1 {
   
   .topnav a {
     float: left;
-    color: white;
+    color: var(--text);
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
+    transition: all, 0.2s;
   }
   
   .topnav a:hover {
-    background-image: linear-gradient(#000000, #414141);
-    opacity: 0.7;
-    border-radius: 4px;
-    box-shadow: var(--accent) 0px 0px 10px;
+    background-color: var(--alt2);
   }
   
   .topnav a.active {
-    background-image: linear-gradient(#75b5e9, #162f42);
-    border-radius: 4px;
+    background-color: var(--accent);
     color: white;
   }
