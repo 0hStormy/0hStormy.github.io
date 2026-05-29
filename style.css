@@ -36,6 +36,23 @@ footer {
     text-align: center;
 }
 
+.window {
+    background-color: Snow;
+    background-image: linear-gradient(
+        white,
+        Snow
+    );
+    border: solid 1px lavender;
+    border-radius: 4px;
+    padding: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 480px;
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .frame {
     background-color: Snow;
     background-image: linear-gradient(
