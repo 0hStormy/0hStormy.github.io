@@ -1,166 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta content="Stormy" property="og:title" />
-    <meta
-      content="Hi y’all, I’m Stormy! I like to program, make and play music, and draw."
-      property="og:description"
-    />
-    <meta content="https://0stormy.xyz" property="og:url" />
-    <meta content="https://0stormy.xyz/assets/bg.avif" property="og:image" />
-    <title>Stormy</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="Stormy" property="og:title" />
+  <meta content="Hi y'all, I'm Stormy! I like to program, make and play music, and draw." property="og:description" />
+  <meta content="https://0stormy.xyz" property="og:url" />
+  <meta content="https://0stormy.xyz/assets/bg.avif" property="og:image" />
+  <title>Stormy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <aside>
     <div class="window">
-      <img
-        class="banner"
-        src="assets/bg.avif"
-        alt="Kanzan Sakura Tree Flowers"
-      />
-      <h2>Intro</h2>
+      <h4>Sections</h4>
+      <p><a href="#intro">Intro</a></p>
+      <p><a href="#interestshobbies">Interests/Hobbies</a></p>
+      <p><a href="#goals">Goals</a></p>
       <p>
-        Heya! My name is Stormy. This is my website where you can get to know a
-        little bit about me. To start, I'm a high schooler living the pacific
-        northwest of the US, I love talking and getting along with people, and I
-        love doing many things within the creative arts.
+        <a href="#graphicdesignexperience">Graphic Design Experience</a>
+        <br>
+        <a href="#designprojects">Design Projects</a>
       </p>
-
       <p>
-        I am also a developer at <a href="https://rotur.dev/">Rotur</a>, an
-        ecosystem for communicating with others.
+        <a href="#programingexperience">Programming Experience</a>
+        <br>
+        <a href="#programmingprojects">Programming Projects</a>
       </p>
+      <p><a href="#conclusion">Conclusion</a></p>
+    </div>
+  </aside>
+  <div class="window">
+    <img class="banner" src="assets/bg.jpg" alt="Kanzan Sakura Tree Flowers" />
+    <h2 id="intro">Intro</h2>
+    <p>
+      Heya! My name is Stormy. This is my website where you can get to know a
+      little bit about me. To start, I'm a high schooler living the pacific
+      northwest of the US, I love talking and getting along with people, and I
+      love doing many things within the creative arts.
+    </p>
 
-      <span data-rotur-status="stormy" data-theme="light"></span>
+    <h2 id="interestshobbies">Interests/Hobbies</h2>
+    <p>I love doing many things in my free time including:</p>
+    <ul>
+      <li>Programming</li>
+      <li>Drawing</li>
+      <li>Making music</li>
+      <li>Socializing</li>
+      <li>Making GTK themes (or really anything CSS)</li>
+    </ul>
 
-      <h2>Interests/Hobbies</h2>
-      <p>I love doing many things in my free time including:</p>
-      <ul>
-        <li>Programming</li>
-        <li>Drawing</li>
-        <li>Making music</li>
-        <li>Socializing</li>
-        <li>Making GTK themes (or really anything CSS)</li>
-      </ul>
+    <h2 id="goals">Goals</h2>
+    <p>Here are some goals I have for in the near and far future:</p>
+    <ul>
+      <li>Creating a GUI Toolkit</li>
+      <li>Improving my drawing skills</li>
+      <li>Imrpving my music composition skills</li>
+      <li>Go to college</li>
+    </ul>
 
-      <h2>Goals</h2>
-      <p>Here are some goals I have for in the near and far future:</p>
-      <ul>
-        <li>Creating a GUI Toolkit</li>
-        <li>Learning how to play flute (Working on)</li>
-        <li>Improving my drawing skills</li>
-        <li>Imrpving my music composition skills</li>
-        <li>Go to college</li>
-      </ul>
+    <h2 id="graphicdesignexperience">Graphic Design Experience</h2>
+    <p>
+      I have been doing graphic design for around two years now. Personally, I
+      would say I'm proficient at it but still have a lot to learn. Little
+      weird to think about just a couple years ago I could barely center an
+      element in CSS.
+    </p>
 
-      <h2>Graphic Design Experience</h2>
+    <p>Here's a list of tooling I use/know:</p>
+    <ul class="imglist">
+      <li><img src="assets/figma.png" /> Figma (Proficient)</li>
+      <li><img src="assets/css.png" /> CSS (Proficient)</li>
+      <li><img src="assets/sass.png" /> SASS (Beginner)</li>
+    </ul>
+
+    <h3 id="designprojects">Design Projects</h3>
+    <div class="frame">
+      <h3><a href="https://github.com/0hStormy/Reactium">Reactium</a></h3>
       <p>
-        I have been doing graphic design for around two years now. Personally, I
-        would say I'm proficient at it but still have a lot to learn. Little
-        weird to think about just a couple years ago I could barely center an
-        element in CSS.
+        A skueomorphic theme for Linux inspired by Aero, Fusion, and Oxygen.
       </p>
-
-      <p>Here's a list of tooling I use/know:</p>
-      <ul class="imglist">
-        <li><img src="assets/figma.png" /> Figma (Proficient)</li>
-        <li><img src="assets/css.png" /> CSS (Proficient)</li>
-        <li><img src="assets/sass.png" /> SASS (Beginner)</li>
-      </ul>
-
-      <h3>Design Projects</h3>
-      <div class="frame">
-        <h3><a href="https://github.com/0hStormy/Reactium">Reactium</a></h3>
-        <p>
-          A skueomorphic theme for Linux inspired by Aero, Fusion, and Oxygen.
-        </p>
-      </div>
-      <div class="frame">
-        <h3><a href="https://github.com/0hStormy/breezepod">Breezepod</a></h3>
-        <p>A theme for the iPod that's meant to match KDE's Breeze HIG.</p>
-      </div>
-      <div class="frame">
-        <h3>
-          <a href="https://github.com/0hStormy/Arashi">Arashi (Archived)</a>
-        </h3>
-        <p>A smooth, modern icon set for Linux</p>
-      </div>
-
-      <h2>Programming Experience</h2>
-      <p>
-        I have been programming for four years now. I have learned quite a bit
-        in that time, here is a list of some programming languages I know, the
-        experience metrics aren't super in-depth but should a basic idea of my
-        skills:
-      </p>
-      <ul class="imglist">
-        <li><img src="assets/python.png" /> Python (Proficient)</li>
-        <li><img src="assets/javascript.png" /> Javascript (Proficient)</li>
-        <li><img src="assets/html.png" /> HTML (Does this even count lmao)</li>
-        <li><img src="assets/nim.png" /> Nim (Beginner)</li>
-      </ul>
-      <h3>Programming Projects</h3>
-      <div class="frame">
-        <h3><a href="https://git.rotur.dev/rotur/docs">roturDocs</a></h3>
-        <p>A powerful open source and free gitbook alternative.</p>
-      </div>
-      <div class="frame">
-        <h3>
-          <a href="https://git.0stormy.xyz/stormy/QRoturMail">QRoturMail</a>
-        </h3>
-        <p>
-          A work in progress QT client for
-          <a href="https://mail.rotur.dev/">roturMail</a>.
-        </p>
-      </div>
-      <div class="frame">
-        <h3>
-          <a href="https://git.0stormy.xyz/stormy/python-rockbox">python-rockbox</a>
-        </h3>
-        <p>Python API for creating Rockbox themes.</p>
-      </div>
-      <div class="frame">
-        <h3>
-          <a href="https://git.0stormy.xyz/Stormy/Composigen">Composigen</a>
-        </h3>
-        <p>Makes photos feel nostalgic with ease!</p>
-      </div>
-
-      <h2>Conclusion</h2>
-      <p>
-        While this website is still under construction, I hope anyone visiting
-        the website has enjoyed learning a bit about me!
-      </p>
-
-      <h3>88x31 Buttons</h3>
-
-      <a href="https://rotur.dev/"
-        ><img src="assets/rotur88x31.png" alt="Rotur"
-      /></a>
-      <a href="https://firefox.com/">
-        <img
-          src="https://yesterhost.neocities.org/archive/buttons/button102.gif"
-          alt="Get Firefox"
-      /></a>
-      <a href="https://www.w3.org/Style/CSS/Overview.en.html"
-        ><img src="https://cyber.dabamos.de/88x31/css3.gif" alt="CSS3"
-      /></a>
-      <a href="https://kernel.org/"
-        ><img src="https://cyber.dabamos.de/88x31/linux.gif" alt="Linux 2.0"
-      /></a>
-      <a href="https://html.spec.whatwg.org/">
-        <img
-          src="https://cyber.dabamos.de/88x31/learn_html.gif"
-          alt="Learn HTML"
-      /></a>
-      <a href="https://lynx.invisible-island.net/"
-        ><img src="https://cyber.dabamos.de/88x31/lynx.gif" alt="Lynx Friendly"
-      /></a>
+    </div>
+    <div class="frame">
+      <h3><a href="https://github.com/0hStormy/breezepod">Breezepod</a></h3>
+      <p>A theme for the iPod that's meant to match KDE's Breeze HIG.</p>
+    </div>
+    <div class="frame">
+      <h3>
+        <a href="https://github.com/0hStormy/Arashi">Arashi (Archived)</a>
+      </h3>
+      <p>A smooth, modern icon set for Linux</p>
     </div>
 
-    <footer>Made with 🩷 by Stormy (Updated 5/25/26)</footer>
-    <script src="https://embed.rotur.dev/embed.js"></script>
-  </body>
+    <h2 id="programmingexperience">Programming Experience</h2>
+    <p>
+      I have been programming for four years now. I have learned quite a bit
+      in that time, here is a list of some programming languages I know, the
+      experience metrics aren't super in-depth but should a basic idea of my
+      skills:
+    </p>
+    <ul class="imglist">
+      <li><img src="assets/python.png" /> Python (Proficient)</li>
+      <li><img src="assets/javascript.png" /> Javascript (Proficient)</li>
+      <li><img src="assets/html.png" /> HTML (Does this even count lmao)</li>
+      <li><img src="assets/nim.png" /> Nim (Beginner)</li>
+    </ul>
+    <h3 id="programmingprojects">Programming Projects</h3>
+    <div class="frame">
+      <h3><a href="https://git.0stormy.xyz/stormy/RockSync">RockSync</a></h3>
+      <p>Sync music from your computer to your Rockbox device.</p>
+    </div>
+    <div class="frame">
+      <h3>
+        <a href="https://git.0stormy.xyz/stormy/python-rockbox">python-rockbox</a>
+      </h3>
+      <p>Python API for creating Rockbox themes.</p>
+    </div>
+    <div class="frame">
+      <h3>
+        <a href="https://git.0stormy.xyz/Stormy/Composigen">Composigen</a>
+      </h3>
+      <p>Makes photos feel nostalgic with ease!</p>
+    </div>
+
+    <h2 id="conclusion">Conclusion</h2>
+    <p>
+      While this website is still under construction, I hope anyone visiting
+      the website has enjoyed learning a bit about me!
+    </p>
+
+    <h3>88x31 Buttons</h3>
+
+    <a href="https://rotur.dev/"><img src="assets/rotur88x31.png" alt="Rotur" /></a>
+    <a href="https://firefox.com/">
+      <img src="https://yesterhost.neocities.org/archive/buttons/button102.gif" alt="Get Firefox" /></a>
+    <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="https://cyber.dabamos.de/88x31/css3.gif"
+        alt="CSS3" /></a>
+    <a href="https://kernel.org/"><img src="https://cyber.dabamos.de/88x31/linux.gif" alt="Linux 2.0" /></a>
+    <a href="https://html.spec.whatwg.org/">
+      <img src="https://cyber.dabamos.de/88x31/learn_html.gif" alt="Learn HTML" /></a>
+    <a href="https://lynx.invisible-island.net/"><img src="https://cyber.dabamos.de/88x31/lynx.gif"
+        alt="Lynx Friendly" /></a>
+  </div>
+
+  <footer>Made with 🩷 by Stormy (Updated 5/25/26)</footer>
+</body>
+
 </html>
