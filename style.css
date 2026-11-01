@@ -1,23 +1,9 @@
 body {
-    background-color: MistyRose;
+    background-color: #f7d6d2;
     font-family: "Carlito", Arial, Helvetica, sans-serif;
     font-size: 11.5pt;
-    color: #484044;
+    color: #484040;
     margin: 0;
-}
-
-@media only screen and (max-width: 960px) {
-    aside {
-        display: none;
-    }
-}
-
-aside {
-    float: left;
-    margin-left: 16px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 
 h1, h2, h3 {
@@ -37,7 +23,7 @@ p {
 }
 
 a {
-    color: PaleVioletRed;
+    color: #f377a7;
     text-decoration: none;
     padding-bottom: 1px;
     background-image: linear-gradient(
